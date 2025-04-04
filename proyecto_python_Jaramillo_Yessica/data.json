@@ -1,0 +1,72 @@
+{
+  "clientes": [
+    {
+      "nombres": "Mariana",
+      "apellidos": "Gómez Castro",
+      "identificacion": "1018456789",
+      "tipo_identificacion": "CC",
+      "direccion": "Carrera 7 # 123 - 45, Apto. 201",
+      "telefono_fijo": "(601) 7890123",
+      "celular": "3101234567",
+      "barrio": "Chapinero Alto",
+      "ciudad": "Bogotá D.C.",
+      "departamento": "Cundinamarca"
+    },
+    {
+      "nombres": "Juan Pablo",
+      "apellidos": "Rodríguez Pérez",
+      "identificacion": "79123456",
+      "tipo_identificacion": "CC",
+      "direccion": "Calle 50 # 25 - 10, Interior 3",
+      "telefono_fijo": "(604) 5678901",
+      "celular": "3159876543",
+      "barrio": "El Poblado",
+      "ciudad": "Medellín",
+      "departamento": "Antioquia"
+    },
+    {
+      "nombres": "Sofía",
+      "apellidos": "Vargas López",
+      "identificacion": "1234567890",
+      "tipo_identificacion": "TI",
+      "direccion": "Avenida Santander # 10 - 20, Local 4",
+      "telefono_fijo": "(605) 1234567",
+      "celular": "3005551212",
+      "barrio": "Bocagrande",
+      "ciudad": "Cartagena",
+      "departamento": "Bolívar"
+    }
+  ],
+  "envios": [
+    {
+      "numero_guia": "CO1234567890",
+      "fecha_envio": "2025-04-04",
+      "hora_envio": "11:00:00",
+      "destinatario": {
+        "nombre": "Andrés Díaz",
+        "direccion": "Diagonal 45 # 27 - 89",
+        "telefono": "3123456789",
+        "ciudad": "Cali",
+        "departamento": "Valle del Cauca",
+        "barrio": "San Fernando"
+      },
+      "remitente_identificacion": "1018456789",
+      "estado": "En Bodega"
+    },
+    {
+      "numero_guia": "CO9876543210",
+      "fecha_envio": "2025-04-03",
+      "hora_envio": "16:30:00",
+      "destinatario": {
+        "nombre": "Laura Pérez",
+        "direccion": "Circular 70 # 1 - 150, Torre B, Apto. 502",
+        "telefono": "3019876543",
+        "ciudad": "Medellín",
+        "departamento": "Antioquia",
+        "barrio": "Laureles"
+      },
+      "remitente_identificacion": "79123456",
+      "estado": "En Tránsito"
+    }
+  ]
+}
